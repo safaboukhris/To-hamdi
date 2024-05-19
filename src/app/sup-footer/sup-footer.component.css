@@ -1,0 +1,103 @@
+.ligne-hr{
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+
+}
+
+.grid-title{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2px;
+    width: 60%;
+    margin: 10px auto;
+    place-items: center;
+}
+.nav-link{
+    padding: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.grid-icon{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 30px auto 5px;
+    width: 10%;
+    place-items: center;
+}
+
+
+.insta{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.twitter{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+}
+
+.copyright{
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+
+.link{
+    color: #000;
+}
+.link p{
+    margin-bottom: 2%;
+    font-size: 20px;
+}
+.adresse{
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 768px){
+    .nav-link{
+        font-size: 15px;
+    }
+    .insta{
+        width: 30px;
+        height: 30px;
+    }
+    .twitter{
+        width: 35px;
+        height: 35px;
+    }
+    .copyright{
+        font-size: 18px;
+    }
+    .link p{
+        font-size: 18px;
+    }
+    .adresse{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .grid-title{
+        grid-template-columns: 1fr;
+    }
+    .grid-icon{
+        gap: 10px;
+    }
+    .copyright{
+        font-size: 15px;
+    }
+    .link p{
+        font-size: 15px;
+    }
+    .adresse{
+        font-size: 15px;
+    }
+}

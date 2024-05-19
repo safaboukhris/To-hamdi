@@ -1,0 +1,115 @@
+<app-header-title></app-header-title>
+<div class="div-conf-dexp">
+    <h1 id="title-conf-dexp">CONFIRMATION D'EXPEDITION</h1>
+    <p class="p1-conf-dexp">Bonjour Ismail,<br/>
+        Merci d'avoir commandé chez ZA COLLECTION </p>
+    <button routerLink="/" class="btn-conf-dexp">SUIVRE MA COMMANDE</button>
+    <p class="p-conf-dexp">Votre commande a été envoyé. Les détails se trouvent ci-dessous.</p>
+    <p class="p-conf-dexp">Veuillez noter que le transporteur peut prendre jusqu'à 24 heures pour mettre<br/> 
+        à jour les informations de suivi.</p>
+    <p class="p-conf-dexp">Si vous avez des questions, vous pouvez nous contacter :<br/>
+        <a routerLink="#">www.zacollection.com.tn/contacts</a></p>
+    <p class="p-conf-dexp">Ou par téléphone ou bien par messagerie texte (+33 7 49 49 23 68). Nous <br/>
+        sommes ouverts du Lundi au Samedi 10h00 - 19h00.</p>
+</div>
+
+
+<div>
+    <div class="ligne-hr"></div>
+    <div class="info-dexp">
+        <h2>INFORMATION D'EXPEDITION</h2>
+        <div class="grid-info-dexp">
+            <div class="form-group">
+                <label for="date">Date d'expedition</label>
+                <input type="date" placeholder="December 16, 2019 10:03" id="date"/>
+            </div>
+            <div class="form-group">
+                <label>Transporteur</label>
+                <input type="text" placeholder="UPS" />
+            </div>
+            <div class="form-group">
+                <label >Numéro de suivi</label>
+                <input type="text" placeholder="89623984698" />
+            </div>
+            <div class="form-group">
+                <label >Prix livraison</label>
+                <input type="text" placeholder="Offert" />
+            </div>
+        </div>
+</div>
+
+
+<div>
+    <div class="ligne-hr"></div>
+    <div class="commande">
+    <h2>COMMANDE : 001</h2>
+    <div class="grid-info-commande">
+        <div class="form-group">
+            <label for="date">Date de la commande</label>
+            <input type="date" placeholder="December 16, 2019 10:03" id="date"/>
+        </div>
+        <div class="form-group">
+            <label>Total de la commande</label>
+            <input type="text" placeholder="100 EUR"/>
+        </div>
+        <div class="form-group">
+            <label>Méthode de paiement</label>
+            <input type="text" placeholder="MASTER CARD 5321********8245"/>
+        </div>
+        <div class="form-group">
+            <label>Methode de livraison</label>
+            <input type="text" placeholder="Standard à domicile (2-5 jours ouvrables)"/>
+        </div>
+    </div>
+    <div class="info-adresse">
+        <div>
+            <h3>ADRESSE DE LIVRAISON</h3>
+            <!-- adresse du client : variable  -->
+            <p>Ismail Rahmani
+                9 chemin de la ferme 
+                </p>
+        </div>
+        <div>
+            <h3>ADRESSE DE FACTURATION</h3>
+            <p>Ismail Rahmani
+                9 chemin de la ferme 
+                </p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div>
+    <div class="ligne-hr"></div>
+    <div class="info-cmd">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTspkQrOynsjrFsatVFJCpmq0xBZFr1H5s7qQ&usqp=CAU" alt="photo de la commande"/>
+        <div class="detail-info">
+            <div>
+                <h4>AFFIX</h4>
+                <p>Tee-shirt jaune noir</p>
+                <p>Taille : M</p>
+                <p>Quantité : 1</p>
+            </div>
+            <div class="prix">100 EUR</div>
+        </div>
+    </div>
+</div>
+<div class="total-cmd">
+    <div class="total-cmd-div">
+        <div >
+            <p>SOUS TOTAL</p>
+            <p>LIVRAISON</p>
+        </div>
+        <div>
+            <p>100 EUR</p>
+            <p>OFFERT</p>
+        </div>
+    </div>
+    <div class="total-cmd-div">
+        <p>TOTAL DE LA COMMANDE</p>
+        <p>100 EUR</p>
+    </div>
+</div>
+
+<app-sup-footer></app-sup-footer>

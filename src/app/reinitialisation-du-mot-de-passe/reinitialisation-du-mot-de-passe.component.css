@@ -1,0 +1,68 @@
+.div-ré-mot-de-passe{
+    display: grid;
+    place-items: center;
+}
+#title-ré-mot-de-passe{
+    margin-block-start: 5%;
+    margin-block-end: 3%;
+    font-size: 3rem;
+    text-align: center;
+}
+.p-ré-mot-de-passe{
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.btn-ré-mdp{
+    color: #fff;
+    border: none;
+    background-color: #000;
+    width:97%;
+    padding:8px 10px;
+    font-size: 1.2rem;
+    height: 50px;
+    margin:2% auto;
+}
+.p2-ré-mot-de-passe{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* resonsive design */
+@media screen and (max-width: 1024px){
+    #title-ré-mot-de-passe{
+        font-size: 2.3rem;
+    }
+    .p-ré-mot-de-passe{
+        font-size: 1.3rem;
+    }
+    .p2-ré-mot-de-passe{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 768px){
+    #title-ré-mot-de-passe{
+        font-size: 1.7rem;
+    }
+    .p-ré-mot-de-passe{
+        font-size: 1rem;
+    }
+    .p2-ré-mot-de-passe{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 420px){
+    #title-ré-mot-de-passe{
+        font-size: 1rem;
+    }
+    .p-ré-mot-de-passe{
+        font-size: 0.7rem;
+    }
+    .btn-ré-mdp{
+        font-size: 0.7rem;
+    }
+    .p2-ré-mot-de-passe{
+        font-size: 0.5rem;
+    }
+}

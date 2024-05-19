@@ -1,0 +1,131 @@
+.div-conf-dexp{
+    display: grid;
+    place-items: center;
+}
+#title-conf-dexp{
+    margin-block-start: 5%;
+    margin-block-end: 3%;
+    font-size: 2.3rem;
+    text-align: center;
+}
+.p1-conf-dexp{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.btn-conf-dexp{
+    color: #fff;
+    border: none;
+    background-color: #000;
+    width:97%;
+    padding:8px 10px;
+    font-size: 1.2rem;
+    height: 50px;
+    margin:2% auto;
+    cursor: pointer;
+}
+.p-conf-dexp{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.p-conf-dexp a{
+    color: #000;
+}
+
+
+.ligne-hr{
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin:5% auto 0;
+}
+.info-dexp{
+    width: 90%;
+    margin: 0 auto;
+}
+.grid-info-dexp{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10%;
+}
+.commande{
+    width: 90%;
+    margin: 0 auto;
+}
+.grid-info-commande{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10%;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.form-group input{
+    height: 25px;
+}
+.info-adresse{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10%;
+    margin-top: 50px;
+}
+
+
+
+
+
+.info-cmd{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    height: 200px;
+    border-bottom: 2px solid black;
+    gap: 5%;
+}
+.info-cmd img{
+    width: 100%;
+    height: 200px;
+    border-right: 2px solid black;
+}
+.detail-info{
+    display: flex;
+    justify-content: space-between;
+}
+.total-cmd{
+    margin-bottom: 5%;
+}
+.total-cmd-div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding: 0 5%;
+}
+.prix{
+    margin-block-start: 1.33em;
+}
+
+@media screen and (max-width: 768px){
+    #title-conf-dexp{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 420px){
+    .grid-info-dexp{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .grid-info-commande{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .total-cmd-div{
+        border-bottom:none;
+    }
+    p{
+        font-size: 14px;
+    }
+    .info-adresse{
+        margin-top: 0;
+    }
+}
